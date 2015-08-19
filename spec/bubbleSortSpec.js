@@ -12,7 +12,7 @@ describe("#bubbleSort", function(){
   });
 
   it("sorts an array of positive and negative numbers", function(){
-    expect(bubbleSort([-3,4,1,-9,22])).toEqual([-9,-3,1,3,22]);
+    expect(bubbleSort([-3,4,1,-9,22])).toEqual([-9,-3,1,4,22]);
   });
   it("works with arrays that are already sorted", function(){
     expect(bubbleSort([1,2,3,4,5])).toEqual([1,2,3,4,5]);
