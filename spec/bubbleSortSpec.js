@@ -17,4 +17,7 @@ describe("#bubbleSort", function(){
   it("works with arrays that are already sorted", function(){
     expect(bubbleSort([1,2,3,4,5])).toEqual([1,2,3,4,5]);
   });
+  it("works with arrays that have duplicate numbers", function(){
+    expect(bubbleSort([1,5,3,3,4,2])).toEqual([1,2,3,3,4,5]);
+  });
 });
